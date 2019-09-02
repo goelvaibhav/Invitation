@@ -1,0 +1,49 @@
+Party invite
+Website for invites, that is what this is going to be.
+Modules that could be included are:
+•	Sign up
+•	Log in
+•	Invite page
+•	Response page
+•	User Dashboard that would display previous parties, future parties
+o	Here we could also show an analysis of how many people came on you party with how many invites send out so that you can get a prediction of how many might come. Or what are the possibility of a particular person coming to you party.
+•	Family tree
+Modules in details:
+Family tree
+	Here we wish to implement a visualization of family tree of every person. It will represent how you are related to someone else.
+o	It will basically have levels. For instance, consider you, your brothers and sisters at the bottom level, then next level will be of your parents, up to which will be your grandparents.
+	If person has an account on website then they could be linked through that family tree.
+	This might also be used in later stage to combine family trees of many persons to generate a bigger picture. 
+Sign up
+	Connectivity with Facebook, Google, or register with email and other details to be included:
+o	Age,	Name,	Gender, Date of birth
+o	Username (UNIQUE)
+o	Phone number
+Log in
+	Case 1: if they are login in for first time the they should be able to select their relatives. Request will be made to another user so that they could confirm and let them add him or her to their family tree.
+	Case 2: they have just login for first time and they want to invite some X person to party they know on the platform they can send them friend request as well as invitation.
+o	Now X can accept or reject invitation and friend request interpedently, either one either both or non.
+o	If X accepts the friend request then he/she has to confirm the relationship with the person who has send request.
+	Which leads us to a second category if a person is only friend the we need to have separate friends’ tree if we might think so. (if we do generate friend tree then it should be centric tree visualization where root will be in middle instead of top). 
+	Case 3: if he is a regular user the we need to decide what we can display as home screen dashboard.
+o	Dashboard will display details like what parties have you visited in past, what invitations you have excepted (which will be displayed as parties on) 
+o	What are pending invitation that you need to reply to.
+o	Also, one of the most import part of accepting invitation is to mention how many people can host expect. So that he can plan party accordingly. 
+Star point:
+ 	Since we have previous data, so we can predict things like what are the chances of him or her: 
+o	accepting the invitation
+o	if accepted whether or not will come to attend party
+o	how many members can be expected?
+o	What were the activities that were liked previously?
+ 	We can also include options that will show what could be the fun thing to do at party at that time of the year?
+
+
+
+
+
+
+Websites for reference:
+https://www.paperlesspost.com/
+https://www.evite.com
+https://www.minted.com/online-invitations
+https://www.greenvelope.com/
